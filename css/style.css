@@ -1,0 +1,59 @@
+
+
+body{
+    background-color: #f7f7c0 ;
+}
+
+.containerPlayer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+#deImageOne,#deImageTwo{
+    width: 80px;
+    height: 80px;
+    pointer-events: none;
+    cursor: pointer;
+}
+
+
+
+
+.leftPlayer,.rightPlayer{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 1% 5%;
+    text-align: center;
+}
+
+button {
+    background-color: yellow;
+    padding: 1% 2%; 
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10%;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+@media(max-width:720px){
+
+    button{
+        width: 100%;
+        height: 5vh;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+
+    .containerPlayer{
+        margin-top: 40%;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+}
